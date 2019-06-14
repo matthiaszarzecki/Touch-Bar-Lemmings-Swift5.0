@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaDFRPlugin" version="14490.12"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -733,6 +734,22 @@
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TtZ-Ft-XgD">
+                                <rect key="frame" x="40" y="101" width="400" height="68"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="Xxv-TP-XVo">
+                                    <font key="font" metaFont="system" size="28"/>
+                                    <string key="title">Spawn Lemmings by tapping the
+Touch-Bar on your MacBook!</string>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="TtZ-Ft-XgD" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="NQI-yr-Tou"/>
+                            <constraint firstItem="TtZ-Ft-XgD" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="bxp-Cq-TeV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
