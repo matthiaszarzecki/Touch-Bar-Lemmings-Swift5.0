@@ -20,6 +20,10 @@ enum Direction {
             return .left
         }
     }
+    
+    static func randomDirection() -> Direction {
+        return Bool.random() ? .left : .right
+    }
 }
 
 enum State {

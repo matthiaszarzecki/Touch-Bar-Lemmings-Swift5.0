@@ -28,7 +28,7 @@ class LemmmingsScene: SKScene, SKPhysicsContactDelegate {
         let lemming = Lemming()
         scene?.addChild(lemming)
         lemming.position = at
-        lemming.state = .walking(direction: .left)
+        lemming.state = .walking(direction: Direction.randomDirection())
         lemmings.append(lemming)
     }
     
