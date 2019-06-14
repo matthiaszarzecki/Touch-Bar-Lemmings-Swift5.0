@@ -1,4 +1,4 @@
-# Lemmings in your touch bar
+# Lemmings on Your Touch Bar for Swift 5.0
 
 Lemmings on your Touchbar. Updated to run on Swift 5.0, XCode 10.2.1, and MacOS 10.14 . Forked from https://github.com/erikolsson/Touch-Bar-Lemmings
 
