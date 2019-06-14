@@ -16,7 +16,7 @@ xcodebuild clean build
 ```
 
 ## Run
-Run the app TouchBarLemmings.app, or build first, and then navigate to project folder and run this command:
+Run the app `TouchBarLemmings.app`, or build first, and then navigate to project folder and run this command:
 ```
 open build/Release/TouchBarLemmings.app
 ```
