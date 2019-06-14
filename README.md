@@ -15,7 +15,6 @@ Navigate to project folder, then run this command, or build directly from XCode:
 
 ```
 xcodebuild clean build
-
 ```
 
 ## Run
@@ -28,7 +27,8 @@ open build/Release/TouchBarLemmings.app
 Hit the touch bar while the application is in the foreground. Tapping a lemming will transform it into a blocker.
 
 ## Changes to Original Version
-
 - Updated to Swift 5.0
 - Refactored Code
 - Lemmings now start off in a random direction
+- Added Icon
+- Added Build-file
