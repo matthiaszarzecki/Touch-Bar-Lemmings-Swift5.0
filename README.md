@@ -26,7 +26,8 @@ Hit the touch bar while the application is in the foreground. Tapping a lemming 
 
 ## Changes to Original Version
 - Updated to Swift 5.0
-- Refactored Code
+- Added Tutorial-Message to Window
 - Lemmings now start off in a random direction
 - Added Icon
 - Added Build-file
+- Refactored Code
