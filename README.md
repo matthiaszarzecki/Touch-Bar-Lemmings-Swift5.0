@@ -14,7 +14,7 @@ Forked from https://github.com/erikolsson/Touch-Bar-Lemmings
 Navigate to project folder, then run this command, or build directly from XCode:
 
 ```
-xcodebuild clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+xcodebuild clean build
 
 ```
 
