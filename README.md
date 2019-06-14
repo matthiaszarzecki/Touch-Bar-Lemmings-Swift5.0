@@ -26,3 +26,9 @@ open build/Release/TouchBarLemmings.app
 ## Spawn lemmings
 
 Hit the touch bar while the application is in the foreground. Tapping a lemming will transform it into a blocker.
+
+## Changes to Original Version
+
+- Updated to Swift 5.0
+- Refactored Code
+- Lemmings now start off in a random direction
