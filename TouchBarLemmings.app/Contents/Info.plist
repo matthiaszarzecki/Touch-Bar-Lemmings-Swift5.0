@@ -8,6 +8,10 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>TouchBarLemmings</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.matthiaszarzecki.TouchBarLemmings</string>
 	<key>CFBundleInfoDictionaryVersion</key>
