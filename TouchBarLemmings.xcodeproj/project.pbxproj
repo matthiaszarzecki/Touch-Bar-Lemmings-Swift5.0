@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC343FB422B240AB001F3238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC343FB322B240AB001F3238 /* AppDelegate.swift */; };
+		CC343FB622B240AB001F3238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC343FB522B240AB001F3238 /* ViewController.swift */; };
+		CC343FB822B240AC001F3238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC343FB722B240AC001F3238 /* Assets.xcassets */; };
+		CC343FBB22B240AC001F3238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC343FB922B240AC001F3238 /* Main.storyboard */; };
+		CC343FE022B242F5001F3238 /* LemmingsCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC343FDF22B242F5001F3238 /* LemmingsCanvas.swift */; };
+		CC343FE222B24319001F3238 /* LemmingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC343FE122B24319001F3238 /* LemmingsScene.swift */; };
+		CC343FE422B24345001F3238 /* Lemming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC343FE322B24345001F3238 /* Lemming.swift */; };
+		CC343FE622B24364001F3238 /* SpriteLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC343FE522B24364001F3238 /* SpriteLoader.swift */; };
+		CC343FE822B243A9001F3238 /* Atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC343FE722B243A9001F3238 /* Atlas.plist */; };
+		CC343FEA22B243BA001F3238 /* sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = CC343FE922B243BA001F3238 /* sprites.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC343FB022B240AB001F3238 /* TouchBarLemmings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarLemmings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC343FB322B240AB001F3238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC343FB522B240AB001F3238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC343FB722B240AC001F3238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC343FBA22B240AC001F3238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC343FBC22B240AC001F3238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC343FBD22B240AC001F3238 /* TouchBarLemmings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchBarLemmings.entitlements; sourceTree = "<group>"; };
+		CC343FDF22B242F5001F3238 /* LemmingsCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemmingsCanvas.swift; sourceTree = "<group>"; };
+		CC343FE122B24319001F3238 /* LemmingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemmingsScene.swift; sourceTree = "<group>"; };
+		CC343FE322B24345001F3238 /* Lemming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemming.swift; sourceTree = "<group>"; };
+		CC343FE522B24364001F3238 /* SpriteLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteLoader.swift; sourceTree = "<group>"; };
+		CC343FE722B243A9001F3238 /* Atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Atlas.plist; sourceTree = "<group>"; };
+		CC343FE922B243BA001F3238 /* sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprites.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC343FAD22B240AB001F3238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC343FA722B240AB001F3238 = {
+			isa = PBXGroup;
+			children = (
+				CC343FB222B240AB001F3238 /* TouchBarLemmings */,
+				CC343FB122B240AB001F3238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC343FB122B240AB001F3238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC343FB022B240AB001F3238 /* TouchBarLemmings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC343FB222B240AB001F3238 /* TouchBarLemmings */ = {
+			isa = PBXGroup;
+			children = (
+				CC343FB322B240AB001F3238 /* AppDelegate.swift */,
+				CC343FB522B240AB001F3238 /* ViewController.swift */,
+				CC343FDF22B242F5001F3238 /* LemmingsCanvas.swift */,
+				CC343FE122B24319001F3238 /* LemmingsScene.swift */,
+				CC343FE322B24345001F3238 /* Lemming.swift */,
+				CC343FE522B24364001F3238 /* SpriteLoader.swift */,
+				CC343FE922B243BA001F3238 /* sprites.png */,
+				CC343FE722B243A9001F3238 /* Atlas.plist */,
+				CC343FB722B240AC001F3238 /* Assets.xcassets */,
+				CC343FB922B240AC001F3238 /* Main.storyboard */,
+				CC343FBC22B240AC001F3238 /* Info.plist */,
+				CC343FBD22B240AC001F3238 /* TouchBarLemmings.entitlements */,
+			);
+			path = TouchBarLemmings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC343FAF22B240AB001F3238 /* TouchBarLemmings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC343FD622B240AC001F3238 /* Build configuration list for PBXNativeTarget "TouchBarLemmings" */;
+			buildPhases = (
+				CC343FAC22B240AB001F3238 /* Sources */,
+				CC343FAD22B240AB001F3238 /* Frameworks */,
+				CC343FAE22B240AB001F3238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchBarLemmings;
+			productName = TouchBarLemmings;
+			productReference = CC343FB022B240AB001F3238 /* TouchBarLemmings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC343FA822B240AB001F3238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Matthias Zarzecki";
+				TargetAttributes = {
+					CC343FAF22B240AB001F3238 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CC343FAB22B240AB001F3238 /* Build configuration list for PBXProject "TouchBarLemmings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC343FA722B240AB001F3238;
+			productRefGroup = CC343FB122B240AB001F3238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC343FAF22B240AB001F3238 /* TouchBarLemmings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC343FAE22B240AB001F3238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC343FEA22B243BA001F3238 /* sprites.png in Resources */,
+				CC343FB822B240AC001F3238 /* Assets.xcassets in Resources */,
+				CC343FE822B243A9001F3238 /* Atlas.plist in Resources */,
+				CC343FBB22B240AC001F3238 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC343FAC22B240AB001F3238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC343FE222B24319001F3238 /* LemmingsScene.swift in Sources */,
+				CC343FB622B240AB001F3238 /* ViewController.swift in Sources */,
+				CC343FE422B24345001F3238 /* Lemming.swift in Sources */,
+				CC343FE622B24364001F3238 /* SpriteLoader.swift in Sources */,
+				CC343FB422B240AB001F3238 /* AppDelegate.swift in Sources */,
+				CC343FE022B242F5001F3238 /* LemmingsCanvas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC343FB922B240AC001F3238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC343FBA22B240AC001F3238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC343FD422B240AC001F3238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC343FD522B240AC001F3238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CC343FD722B240AC001F3238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouchBarLemmings/TouchBarLemmings.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarLemmings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthiaszarzecki.TouchBarLemmings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CC343FD822B240AC001F3238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouchBarLemmings/TouchBarLemmings.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarLemmings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthiaszarzecki.TouchBarLemmings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC343FAB22B240AB001F3238 /* Build configuration list for PBXProject "TouchBarLemmings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC343FD422B240AC001F3238 /* Debug */,
+				CC343FD522B240AC001F3238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC343FD622B240AC001F3238 /* Build configuration list for PBXNativeTarget "TouchBarLemmings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC343FD722B240AC001F3238 /* Debug */,
+				CC343FD822B240AC001F3238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC343FA822B240AB001F3238 /* Project object */;
+}
