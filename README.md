@@ -9,15 +9,13 @@ Forked from https://github.com/erikolsson/Touch-Bar-Lemmings
 
 ![screenshot](https://github.com/erikolsson/Touch-Bar-Lemmings/blob/master/media/screenshot.jpg?raw=true)
 
-## Build
-Navigate to project folder, then run this command, or build directly from XCode:
+## Run
+Run the app `TouchBarLemmings.app`
+
+## Build & Run
+Navigate to project folder, then run these commands, or build directly from XCode:
 ```
 xcodebuild clean build
-```
-
-## Run
-Run the app `TouchBarLemmings.app`, or build first, and then navigate to project folder and run this command:
-```
 open build/Release/TouchBarLemmings.app
 ```
 
